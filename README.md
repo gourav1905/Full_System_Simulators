@@ -3,6 +3,7 @@
 Using GEM5 as a tool. 
 We want to do comparison between Full System Simulation and Processor Simulator.
 
+# Meeting_1_with_MJ
 M5 or gem5 full simulator:
 
 	-> Full simulator which also simulates the OS(possibly unix)
@@ -21,3 +22,12 @@ Objective 4: Can we modify Simplescalar to handle some library calls(which might
 Constraints : 1. Set same architecture in both simulators
 	      2. Set same cache and other reg size
 	      3. If possible instruction set should be same 
+
+# Meeting_2_with_MJ
+
+1. No need to simulate on SimpleScalar, we can use GEM5 for both.
+2. Try to take measurements of many metrics for a program on different configurations
+3. Simulate only some billion or million instructions
+4. Don't simulate the whole program.
+5. Try to simulate two or three programs only
+6. clusters should not have more than 2 nodes
